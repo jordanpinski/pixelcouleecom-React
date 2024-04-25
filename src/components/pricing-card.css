@@ -1,0 +1,119 @@
+.pricing-card-pricing-card {
+  height: 650px;
+  position: relative;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.pricing-card-container {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pricing-card-text {
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  font-family: Bricolage Grotesque;
+  font-weight: 800;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.pricing-card-free-plan-description {
+  align-self: center;
+}
+.pricing-card-container1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.pricing-card-text1 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.pricing-card-free-plan-price {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.pricing-card-text4 {
+  font-size: 1.15rem;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.pricing-card-container2 {
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.pricing-card-container3 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.pricing-card-text5 {
+  line-height: 150%;
+}
+.pricing-card-container4 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.pricing-card-text6 {
+  line-height: 150%;
+}
+.pricing-card-container5 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.pricing-card-text7 {
+  line-height: 150%;
+}
+.pricing-card-container6 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: center;
+}
+.pricing-card-text8 {
+  line-height: 150%;
+}
+.pricing-card-button {
+  width: 100%;
+}
+@media(max-width: 991px) {
+  .pricing-card-pricing-card {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    max-width: 450px;
+  }
+}
+@media(max-width: 767px) {
+  .pricing-card-pricing-card {
+    width: 100%;
+    max-width: 450px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}
